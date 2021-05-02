@@ -1,0 +1,71 @@
+.header-wrapper{
+    position: relative;
+    background: url(../../images/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.HomePage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+
+.hero-text{
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+}
+.hero-text span{
+        color: #06cef7;
+    }
+
+
+.h-sub-text{
+    text-align: center;
+    color: #ffffff;
+}
+
+.typed-text{
+    font-size: 2rem;
+}
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+.icon-holder{
+    margin-right: 1rem;
+}
+.icon{
+    font-size: 2.8rem;
+    color: #a4acc4;
+    transition: all .4s ease-in-out;
+}
+.fb:hover{
+    color: #037FFF;
+}
+.gh:hover{
+    color: #fdfdfdc9;
+}
+.lkin:hover{
+    color: #037FFF;
+}
+.yt:hover{
+    color: red;
+}
+
+.tsparticles-canvas-el{
+    position: absolute;
+    height: 100vh;
+    max-width: 84%;
+    overflow-x: hidden;
+    z-index: 1;
+}

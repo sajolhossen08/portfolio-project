@@ -1,0 +1,9 @@
+.resume-download-btn{
+    display: block;
+    margin: 0 auto;
+    background-color: #076679;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid #0b2b31;
+}
