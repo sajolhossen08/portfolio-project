@@ -9,6 +9,7 @@ const NavBar = () => {
             <nav className="nav">
                 <div className="profile">
                     <img src={avatar} alt="Shozol Hossen"/>
+                    <h4 style={{color: "#06cef7"}}>Shozol Hossen</h4>
                  </div>
 
                 <ul className="nav-items">
@@ -37,7 +38,7 @@ const NavBar = () => {
                             Contact
                         </NavLink>
                     </li>
-                    <li className="nav-item">
+                    <li>
                         <a class="text-decoration-none mt-1" href="https://drive.google.com/uc?export=download&amp;id=1NI0oA-15s6W8Jsdw1AEiN6cS5pb5P78H" download="">
                             <button type="button" class="font-weight-light text-uppercase resume-download-btn">
                                 GET RESUME
@@ -48,7 +49,7 @@ const NavBar = () => {
 
                 <footer className="footer">
                     <p>
-                    &copy;2021 Shozol Hossen
+                    <small>&copy;Copyright 2021 <br/>Designed by <span> Shozol Hossen</span></small>
                     </p>
             </footer>
             </nav>

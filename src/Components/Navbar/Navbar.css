@@ -1,9 +1,18 @@
 .resume-download-btn{
     display: block;
     margin: 0 auto;
-    background-color: #099cb9;
+    background-color: #027c94;
     color: white;
     padding: 5px;
     border-radius: 7px;
     border: 1px solid #0b2b31;
+}
+.resume-download-btn:hover {
+    transition: all .5s;
+    cursor: pointer;
+    transform: rotate3d(0,0,0,-30deg) scale(1.05);
+    background-color: #18b1cf;
+}
+.footer span{
+    color: #06cef7;
 }

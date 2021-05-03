@@ -3,6 +3,7 @@
 @import './Styles/title';
 @import './styles/about';
 @import './styles/skill';
+@import './styles/services';
 
 
 
@@ -11,9 +12,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #0094d898;
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #777;
+}
 
 body{
     color: #f8f8f8;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 411px){
+    html{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 700px){
+    html{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width: 480px){
+    h2{
+        font-size: 70%;
+    }
+    h3{
+        font-size: 70%;
+    }
 }

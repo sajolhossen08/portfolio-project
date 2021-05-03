@@ -52,15 +52,27 @@
     transition: all .4s ease-in-out;
 }
 .fb:hover{
+    transition: all .5s;
+    cursor: pointer;
+    transform: rotate3d(0,0,0,-30deg) scale(1.15);
     color: #037FFF;
 }
 .gh:hover{
+    transition: all .5s;
+    cursor: pointer;
+    transform: rotate3d(0,0,0,-30deg) scale(1.15);
     color: #fdfdfdc9;
 }
 .lkin:hover{
+    transition: all .5s;
+    cursor: pointer;
+    transform: rotate3d(0,0,0,-30deg) scale(1.15);
     color: #037FFF;
 }
 .yt:hover{
+    transition: all .5s;
+    cursor: pointer;
+    transform: rotate3d(0,0,0,-30deg) scale(1.15);
     color: red;
 }
 

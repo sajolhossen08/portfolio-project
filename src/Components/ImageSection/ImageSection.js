@@ -3,12 +3,13 @@ import about from '../../images/about-me.png';
 
 const ImageSection = () => {
     return (
-        <div className="ImageSection">
-            <div className="img">
-                <img style={{width:"400px"}} src={about} alt=""/>
+        <div className="ImageSection row d-flex">
+            <div className="img col-lg-4">
+                <img style={{minWidth:"315px"}} className="img-fluid" src={about} alt=""/>
             </div>
+            <div style={{minWidth:"310px"}} className="col-lg-6 offset-md-1">
             <div className="about-info">
-                <h4>I am <span> Shozol Hossen</span></h4>
+                <h4>I am <span style={{color: "#06cef7"}}> Shozol Hossen</span></h4>
                 <p className="about-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
@@ -35,6 +36,7 @@ const ImageSection = () => {
                                 GET RESUME
                             </button>
                     </a>
+            </div>
             </div>
         </div>
     );
