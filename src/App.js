@@ -14,11 +14,16 @@ function App() {
         <NavBar/>
       </div>
       <div className="main-content">
-      <div className="content">
-      <Switch>
-              <Route path="/" exact>
+        <Switch>
+        <Route path="/" exact>
                 <Header/>
               </Route>
+              <Route path="/home" exact>
+                <Header/>
+              </Route>
+        </Switch>
+      <div className="content">
+      <Switch>
               <Route path="/about" exact>
                 <AboutPage />
               </Route>

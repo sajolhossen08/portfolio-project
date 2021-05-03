@@ -40,7 +40,7 @@ const Header = () => {
                     <span> SHOZOL HOSSEN</span>
                 </h1>
                 <Typed 
-                className = "typed-text text-center d-block"
+                className = "typed-text text-center d-block" 
                 strings = {["Front-end Developer", "MERN Stack Developer", "Web Developer"]}
                 typeSpeed={50}
                 backSpeed={60}
