@@ -52,7 +52,7 @@ const Header = () => {
                     debugging and problem solving.
                 </p>
                 <div className="icons">
-                    <Link to={{ pathname: "https://www.linkedin.com/in/shozol-hossen-36ab581b8/" }} target="_blank" className="icon-holder">
+                    <Link to={{ pathname: "https://www.linkedin.com/in/md-shozol-hossen-36ab581b8" }} target="_blank" className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedin} className="icon lkin"/>
                     </Link>
                     <Link to={{ pathname: "https://github.com/sajolhossen08" }} target="_blank" className="icon-holder">
