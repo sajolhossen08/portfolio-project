@@ -21,7 +21,7 @@ const ProjectsPage = () => {
         setMenuItems(filteredData);
     }
     return (
-        <div className="ProjectsPage" style={{margin: "0rem 10rem", paddingTop:"3rem"}}>
+        <div className="ProjectsPage" style={{margin: "0rem 10%", paddingTop:"3rem"}}>
             <div className="title">
                 <Title title={'Projects'} span={'Projects'} />
             </div>

@@ -32,7 +32,7 @@ const Header = () => {
             }
         }}
         />
-        <div className="header-wrapper">
+        <div className="header-wrapper container-fluid">
         <div className="HomePage">
             <header className="hero">
                 <h1 className="hero-text">
@@ -41,7 +41,7 @@ const Header = () => {
                 </h1>
                 <Typed 
                 className = "typed-text text-center d-block" 
-                strings = {["Front-end Developer", "MERN Stack Developer", "Web Developer"]}
+                strings = {["Front-end Developer", "MERN Developer", "Web Developer"]}
                 typeSpeed={50}
                 backSpeed={60}
                 loop

@@ -14,7 +14,8 @@ const AllProjects =  [
         icon1: <FontAwesomeIcon icon={faGlobe} className="icon globe"/>,
         icon2: <FontAwesomeIcon icon={faGithub} className="icon gh"/>,
         image: HomeTutor,
-        title: 'Home Tutor (MERN Stack)'
+        title: 'Home Tutor (MERN Stack)',
+        description: "A complete MERN Stack project and users can order any services. User can give review which dynamically show in home page. Payments system with stripe . Technology React, React Router, React Hook Form, Firebase Authentication, Node.js, Express.js, MongoDB, Heroku"
     },
     {
         id: 2,
@@ -24,7 +25,8 @@ const AllProjects =  [
         icon1: <FontAwesomeIcon icon={faGlobe} className="icon globe"/>,
         icon2: <FontAwesomeIcon icon={faGithub} className="icon gh"/>,
         image: MediZone,
-        title: 'Medi Zone (MERN Stack)'
+        title: 'Medi Zone (MERN Stack)',
+        description: "Admin can add new products or can delete. All products are dynamic.Users can order any products. Have a dashboard for user , can see their ordered products list. Technology used: React, React Router, React Hook Form, Firebase Authentication, Node.js, Express.js, MongoDB"
     },
     {
         id: 3,
@@ -34,7 +36,8 @@ const AllProjects =  [
         icon1: <FontAwesomeIcon icon={faGlobe} className="icon globe"/>,
         icon2: <FontAwesomeIcon icon={faGithub} className="icon gh"/>,
         image: PremierLeague,
-        title: 'Premier League'
+        title: 'Premier League',
+        description: "This project, I have used dynamic API. User can see easily all teams details. And can visit their facebook , twitter or youtube. Technology used: Bootstrap, React, React Router"
     }
 ]
 

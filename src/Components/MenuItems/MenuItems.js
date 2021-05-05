@@ -15,10 +15,12 @@ const MenuItems = ({menuItem}) => {
                                 </li>
                             </ul>
                         </div>
+                        <div className="description p-2">
                         <h5>
                             {item.title}
                         </h5>
-                        <p>Placeholder paragraph</p>
+                        <p>{item.description}</p>
+                        </div>
                     </div>
                 })
             }

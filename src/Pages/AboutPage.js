@@ -11,7 +11,7 @@ import ServicesSection from '../Components/ServicesSection/ServicesSection';
 
 const AboutPage = () => {
     return (
-        <div className="AboutPage" style={{margin: "0rem 10rem", paddingTop:"3rem"}}>
+        <div className="AboutPage justify-content-center" style={{margin: "0 10%", paddingTop:"3rem"}}>
             <Title title={'About Me'} span={'About Me'} />
                 <ImageSection />
             <Title title={'My Skills'} span={'My Skills'} />
@@ -30,21 +30,21 @@ const AboutPage = () => {
                 <SkillsSection skill={'WordPress'} progress={'60%'} width={'60%'} />
             </div>
             <Title title={'Services'} span={'Services'} />
-            <div className="row services-container d-flex">
+            <div className="row services-container d-flex text-center">
                 <ServicesSection image={design} title={'WEB DESIGN'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                text={"In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design"}
                 />
                 <ServicesSection image={responsiveWeb} title={'RESPONSIVE DESIGN'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                text={"Responsive Web design is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size."}
                 />
                 <ServicesSection image={webDev} title={'WEB DEVELOPMENT'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                text={"Web development is the building and maintenance of websites; it's the work that happens behind the scenes."}
                 />
                 <ServicesSection image={bugFix} title={'BUG FIXING'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                text={"A bug fix is a change to a system or product designed to handle a programming bug/glitch.Many different types of programming bugs that create errors with system implementation."}
                 />
                 <ServicesSection image={webAppDev} title={'WEB APP DEVELOPMENT'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                text={"Web application development is the creation of application programs that reside on remote servers and are delivered to the user's device over the Internet."}
                 />
 
                 

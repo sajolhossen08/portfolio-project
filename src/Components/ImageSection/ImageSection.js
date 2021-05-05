@@ -11,24 +11,23 @@ const ImageSection = () => {
             <div className="about-info">
                 <h4>I am <span style={{color: "#06cef7"}}> Shozol Hossen</span></h4>
                 <p className="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
-                    Desir per po la ta doso vi slone ve?
+                An intellectually curious, self-motivated and enthusiastic MERN Stack developer with a
+                deep interest in JavaScript as well as React, seeking an opportunity to extend my
+                development skill. Experience in designing and developing user interfaces, testing,
+                debugging and problem solving.
                 </p>
                 <div className="about-details">
                     <div className="left-section">
                             <p>Full Name</p>
-                            <p>Age</p>
                             <p>Nationality</p>
                             <p>Languages</p>
                             <p>Address</p>
                         </div>
                         <div className="right-section">
-                            <p>: Lorem Ipsum</p>
-                            <p>: 50</p>
-                            <p>: French</p>
-                            <p>: French, Spanish, English</p>
-                            <p>: Beightbridge, United kingdom</p>
+                            <p>: Md Shozol Hossen</p>
+                            <p>: Bangladeshi</p>
+                            <p>: Bengali, English, Hindi</p>
+                            <p>: Pabna, Bangladesh</p>
                         </div>
                 </div>
                     <a class="text-decoration-none mt-1" href="https://drive.google.com/uc?export=download&amp;id=1NI0oA-15s6W8Jsdw1AEiN6cS5pb5P78H" download="">

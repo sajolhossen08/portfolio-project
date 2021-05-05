@@ -12,6 +12,9 @@
             transform: translateX(-100%);
             width: 30%;
         }
+        @media screen and (max-width: 411px){
+            width: 50%;
+        }
     }
     .nav-toggle{
         @media screen and (max-width: 1000px){
@@ -39,7 +42,7 @@
     z-index: 10;
     right: 10%;
     top: 5%;
-    width: 4rem;
+    width: 3rem;
     height: 4rem;
     display: none;
     display: flex;

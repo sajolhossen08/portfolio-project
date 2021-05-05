@@ -1,14 +1,16 @@
 .ServicesSection{
-
+    margin-bottom: 2rem;
     .service{
-        height: 23rem;
-        margin-bottom: 2rem;
+        height: 100%;
         background-color: #142631;
         border-left: 1px solid #2e344e;
         border-right: 1px solid #2e344e;
         border-bottom: 1px solid #2e344e;
         border-top: 8px solid #32517a;
         transition: all .4s ease-in-out;
+        overflow: hidden;
+        width: 100%;
+        border-radius: 5px;
         &:hover{
             transition: all 1.3s;
             cursor: pointer;

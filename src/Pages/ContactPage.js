@@ -17,7 +17,7 @@ const ContactPage = () => {
         e.target.reset()
     }
     return (
-        <div className="ContactPage" style={{margin: "0rem 10rem", paddingTop:"3rem"}}>
+        <div className="ContactPage" style={{margin: "0rem 10%", paddingTop:"3rem"}}>
             <div className="title">
                 <Title title={'Contact'} span={'Contact'} />
             </div>

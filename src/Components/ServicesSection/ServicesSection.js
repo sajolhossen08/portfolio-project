@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServicesSection = ({image, title, text}) => {
     return (
-        <div className="ServicesSection col-md-4">
+        <div className="ServicesSection col-lg-4 col-md-6">
             <div className="service text-center">
                 <div className="service-content">
                     <img style={{width:"100px"}} src={image} alt=""/>

@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className="NavBar">
             <nav className="nav">
                 <div className="profile">
-                    <img src={avatar} alt="Shozol Hossen"/>
+                    <img className="img-fluid" src={avatar} alt="Shozol Hossen"/>
                     <h4 style={{color: "#06cef7"}}>Shozol Hossen</h4>
                  </div>
 
@@ -49,7 +49,7 @@ const NavBar = () => {
 
                 <footer className="footer">
                     <p>
-                    <small>&copy;Copyright 2021 <br/>Designed by <span> Shozol Hossen</span></small>
+                    <small>&copy; 2021 <span> Shozol Hossen</span></small>
                     </p>
             </footer>
             </nav>
